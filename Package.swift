@@ -29,8 +29,8 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/IBM-Swift/Kitura.git", from: "2.4.0"),
-        .package(url: "https://github.com/IBM-Swift/BlueCryptor.git", from: "1.0.0"),
+        .package(url: "https://github.com/KituraKommunity/Kitura.git", from: "2.9.100"),
+        .package(url: "https://github.com/KituraKommunity/BlueCryptor.git", from: "1.0.100"),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
